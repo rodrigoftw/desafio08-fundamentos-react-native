@@ -66,11 +66,11 @@ const CartProvider: React.FC = ({ children }) => {
 
   const removeFromCart = useCallback(
     async product => {
-      const productExists = products.find(p => p.id === product.id);
-      if (productExists) {
-        products.filter(p => p !== productExists);
-        setProducts(products);
-      }
+      // const productExists = products.find(p => p.id === product.id);
+      // if (productExists) {
+      products.filter(p => p !== product);
+      setProducts(products);
+      // }
 
       await AsyncStorage.setItem(
         '@GoMarketplace:products',

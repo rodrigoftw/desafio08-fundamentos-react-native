@@ -109,7 +109,7 @@ const Cart: React.FC = () => {
                 <ActionButton
                   testID={`decrement-${item.id}`}
                   onPress={() => {
-                    item.quantity !== 0
+                    item.quantity > 1
                       ? handleDecrement(item.id)
                       : handleRemoveFromCart(item);
                   }}
