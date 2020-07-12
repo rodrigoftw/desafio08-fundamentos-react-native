@@ -6,7 +6,7 @@
 
 ## :rocket: Sobre o desafio
 
-Nesse desafio, foi desenvolvida uma nova aplicação, chamada GoMarketplace. Dessa vez colocou-se em pratica o que foi aprendido até agora no React Native, junto com TypeScript, utilizando rotas, Async Storage e a Context API.
+Nesse desafio, foi desenvolvida uma nova aplicação, chamada GoMarketplace. Dessa vez colocou-se em prática o que foi aprendido até agora no React Native, junto com TypeScript, utilizando rotas, Async Storage e a Context API.
 
 ### Utilizando uma fake API
 
